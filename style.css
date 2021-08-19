@@ -21,8 +21,10 @@
 body {
         background: var(--cover);
         color: var(--font-color);
-        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
         background-attachment: fixed;
+        background-size: cover;
 }
 
 body:after {
