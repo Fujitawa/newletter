@@ -27,6 +27,12 @@ body {
         background-size: cover;
 }
 
+@media screen and (max-width:978px) {
+ body {
+     background:var(--bg) !important;
+}
+}
+
 body:after {
     background: var(--bg);
     position: fixed;
