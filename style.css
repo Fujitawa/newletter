@@ -7,8 +7,13 @@
     --font: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     --btn: #5f5f5f;
     --ripple: #c3c3c3d1;
-    --rounded: 10em;
-     --scrollbar:black;
+    --scrollbar:black;
+    --menu: whitesmoke;
+    --hv: #c3c3c32e;
+    --rounded: 100pt;
+    --r3: 3pt;
+    --r4:4pt;
+    
     
 }
 
@@ -17,11 +22,13 @@
     --font-color: white;
     --btn: whitesmoke;
     --scrollbar:white;
+    --hv: #bebfd81f;
+    --menu: #0b0d10;
 }
 
 ::-webkit-scrollbar { width: 9px; height:9px; }
-::-webkit-scrollbar-track { background:  var(--bg); border: 4px solid var(--bg); }
-::-webkit-scrollbar-thumb { background: var(--scrollbar); border: 3px solid var(--bg); }
+::-webkit-scrollbar-track { background:  var(--bg); border: var(--r4) solid var(--bg); }
+::-webkit-scrollbar-thumb { background: var(--scrollbar); border: var(--r3) solid var(--bg); }
 
 
 body {
@@ -109,7 +116,70 @@ label.mode {
         display: block;
         position: absolute;
         background: var(--ripple);
-        border-radius: 100%;
+        border-radius: var(--rounded);
         transform: scale(0);
 }
 
+
+
+/* вертикальное меню */
+
+.all {
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    position: absolute;
+    right: 0;
+    top: 0;
+    left: 0;
+    margin: 0 auto;
+}
+
+.menu nav {
+        display: flex;
+        flex-direction: column;
+}
+
+.menu {
+        background-color: var(--menu);
+        width: fit-content;
+        min-width: 100px;
+        text-align: center;
+        border-radius: var(--r3);
+        position: relative;
+        padding: 0.55em;
+        display: none;
+        transition: 1s;
+}
+
+
+.click {
+        display: block;
+}
+
+.hre {
+        cursor: pointer;
+}
+
+
+.menu a:hover {
+        
+        background: var(--hv);
+}
+
+.menu a {
+        margin-top: 0.22em;
+        padding: 0.35em;
+        border-radius: var(--r3);
+}
+
+/* аватар */
+
+img.hre {
+        border-radius: var(--rounded);
+        max-width: 100%;
+        object-fit: cover;
+        box-shadow: 0px 0px 0px 5px var(--bg);
+        z-index: 1;
+}
