@@ -204,6 +204,7 @@ label.mode {
         margin-top: 0.22em;
         padding: 0.35em;
         border-radius: var(--r4);
+        text-transform: uppercase;
 }
 
 /* аватар */
