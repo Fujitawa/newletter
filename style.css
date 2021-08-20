@@ -11,6 +11,7 @@
     --btn: #5f5f5f;
     --ripple: #c3c3c3d1;
     --scrollbar: black;
+    --scrl:white;
     --menu: #e0dad4;
     --hv: #ffffff6e;
     --color-one: #565555;
@@ -33,16 +34,17 @@
     --color-one: #d2d2d2;
     --color-two: white;
     --active: #b6e6c9;
+    --scrl:black;
 }
 
 ::-webkit-scrollbar { width: 9px; height:9px; }
 ::-webkit-scrollbar-thumb {
     background: var(--scrollbar);
-    border: 2.7pt solid var(--bg);
+    border: 2.7pt solid var(--scrl);
 }
 ::-webkit-scrollbar-track {
-    background: var(--bg);
-    border: 4pt solid var(--bg);
+    background: var(--scrl);
+    border: 4pt solid var(--scrl);
 }
 
 
