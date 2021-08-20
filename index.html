@@ -100,5 +100,20 @@ for (var i = 0, len = links.length; i < len; i++) {
 }
 
 </script>
+      
+      <script>
+         /* Кнопка */
+var btn = document.querySelector('.hre');
+btn.onclick = function(e) {
+        var element = document.querySelector(".menu");
+        if (element.classList.contains("click")) {
+                element.classList.remove("click");
+        } else {
+                element.classList.add("click");
+        }
+}
+      </script>
   </body>
 </html>
+
+  
