@@ -2,7 +2,7 @@
 
 :root {
     --cover: url('https://randart.ru/art/Fujita/cover/');
-    --bg: #fffffff8;
+    --bg: #ffffffed;
     --font-color: black;
     --font: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     --btn: #5f5f5f;
@@ -11,7 +11,7 @@
 }
 
 [data-theme="dark"] {
-    --bg: #202124f6;
+    --bg: #000000ed;
     --font-color: white;
     --btn: whitesmoke;
 }
@@ -19,8 +19,10 @@
 body {
         background: var(--cover);
         color: var(--font-color);
-        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
         background-attachment: fixed;
+        background-size: cover;
 }
 
 body:after {
