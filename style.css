@@ -1,10 +1,13 @@
 @import url("https://fonts.googleapis.com/icon?family=Material+Icons");
 
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
+
 :root {
     --cover: url('https://randart.ru/art/Fujita/cover/');
     --bg: #ffffffed;
     --font-color: black;
     --font: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    --font-l: "Roboto Condensed", sans-serif;
     --btn: #5f5f5f;
     --ripple: #c3c3c3d1;
     --scrollbar:black;
@@ -61,6 +64,7 @@ body:after {
 a {
     text-decoration: none;
     color: var(--color-one);
+    font-family:var(--font-l)
 }
 
 a:hover {
