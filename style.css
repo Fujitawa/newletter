@@ -10,6 +10,8 @@
     --scrollbar:black;
     --menu: whitesmoke;
     --hv: #c3c3c32e;
+    --color-one: #676565;
+    --color-two: black;
     --rounded: 100pt;
     --r3: 3pt;
     --r4:4pt;
@@ -24,6 +26,8 @@
     --scrollbar:white;
     --hv: #bebfd81f;
     --menu: #0b0d10;
+    --color-one: #d2d2d2;
+    --color-two: white;
 }
 
 ::-webkit-scrollbar { width: 9px; height:9px; }
@@ -130,9 +134,8 @@ label.mode {
     flex-direction: column;
     place-items: center;
     position: absolute;
-    right: 0;
-    top: 0;
-    left: 0;
+    right: 10%;
+    top: 1.5em;
     margin: 0 auto;
 }
 
@@ -140,19 +143,19 @@ label.mode {
         display: flex;
         flex-direction: column;
 }
-
 .menu {
-        background-color: var(--menu);
-        width: fit-content;
-        min-width: 100px;
-        text-align: center;
-        border-radius: var(--r3);
-        position: relative;
-        padding: 0.55em;
-        display: none;
-        transition: 1s;
+    background-color: var(--menu);
+    width: fit-content;
+    min-width: 100px;
+    text-align: center;
+    border-radius: var(--r3);
+    position: absolute;
+    padding: 0.55em;
+    display: none;
+    transition: 1s;
+    top: 100%;
+    z-index: 999;
 }
-
 
 .click {
         display: block;
@@ -181,5 +184,5 @@ img.hre {
         max-width: 100%;
         object-fit: cover;
         box-shadow: 0px 0px 0px 5px var(--bg);
-        z-index: 1;
+        z-index: 9999;
 }
