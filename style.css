@@ -36,8 +36,14 @@
 }
 
 ::-webkit-scrollbar { width: 9px; height:9px; }
-::-webkit-scrollbar-track { background:  var(--bg); border: var(--r4) solid var(--bg); }
-::-webkit-scrollbar-thumb { background: var(--scrollbar); border: var(--r3) solid var(--bg); }
+::-webkit-scrollbar-thumb {
+    background: var(--scrollbar);
+    border: 2.7pt solid var(--bg);
+}
+::-webkit-scrollbar-track {
+    background: var(--bg);
+    border: 4pt solid var(--bg);
+}
 
 
 body {
