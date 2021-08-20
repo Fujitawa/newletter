@@ -42,11 +42,6 @@ body:after {
 }
 
 
-@media screen and (max-width:978px) {
- body {
-     background:var(--bg);
-}
-}
 
 
 .container {
