@@ -10,16 +10,16 @@
     --font-l: "Roboto Condensed", sans-serif;
     --btn: #5f5f5f;
     --ripple: #c3c3c3d1;
-    --scrollbar:black;
-    --menu: whitesmoke;
-    --hv: #c3c3c32e;
-    --color-one: #676565;
+    --scrollbar: black;
+    --menu: #e0dad4;
+    --hv: #ffffff6e;
+    --color-one: #565555;
     --color-two: black;
     --active: salmon;
     --rounded: 100pt;
     --r3: 3pt;
-    --r4:4pt;
-    
+    --r4: 4pt;
+    --r5:5pt;
     
 }
 
@@ -29,7 +29,7 @@
     --btn: whitesmoke;
     --scrollbar:white;
     --hv: #bebfd81f;
-    --menu: #0b0d10;
+    --menu: #212429;
     --color-one: #d2d2d2;
     --color-two: white;
     --active: #b6e6c9;
@@ -169,7 +169,7 @@ label.mode {
     width: fit-content;
     min-width: 100px;
     text-align: center;
-    border-radius: var(--r3);
+    border-radius: var(--r5);
     position: absolute;
     padding: 0.55em;
     display: none;
@@ -195,7 +195,7 @@ label.mode {
 .menu a {
         margin-top: 0.22em;
         padding: 0.35em;
-        border-radius: var(--r3);
+        border-radius: var(--r4);
 }
 
 /* аватар */
