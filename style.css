@@ -12,10 +12,10 @@
     --ripple: #c3c3c3d1;
     --scrollbar: black;
     --scrl:white;
-    --menu: #e0dad4;
-    --hv: #ffffff6e;
-    --color-one: #565555;
-    --color-two: black;
+    --menu: black;
+    --hv: #ffffff14;
+    --color-one: #ececec;
+    --color-two: white;
     --active: salmon;
     --rounded: 100pt;
     --r3: 3pt;
@@ -30,7 +30,7 @@
     --btn: whitesmoke;
     --scrollbar:white;
     --hv: #bebfd81f;
-    --menu: #212429;
+    --menu: white;
     --color-one: #d2d2d2;
     --color-two: white;
     --active: #b6e6c9;
