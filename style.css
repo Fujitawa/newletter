@@ -47,6 +47,13 @@
     border: 4pt solid var(--scrl);
 }
 
+@media (max-width:978px) { body {
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+}
 
 body {
         background: var(--cover);
